@@ -12,7 +12,7 @@ def works(numberPressed):
     inty = int(stringy)
 root = Tk()
 
-root.title("calc bitch")
+root.title("calc bruh")
 mainFrame = ttk.Frame(root,paddin="3 3 12 12")
 mainFrame.grid(column=0,row=0, sticky=(N,W,E,S))
 button1 = ttk.Button(mainFrame, text=1, command=works).grid(column=1, row=2, sticky=W) 
